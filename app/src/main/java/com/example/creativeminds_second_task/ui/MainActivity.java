@@ -210,10 +210,10 @@ public class MainActivity extends AppCompatActivity implements RecyclerViewAdapt
                 //Log.e(TAG, "testRoom: "+repoModels.size());
            //     setData(repoModels);
                 viewModel.setRepo_list(repoModels);
-                if(repoModels.size()==0) {
-                    viewModel.setPage_list(repoModels.size() / 10);
-
-                }
+//                if(repoModels.size()==0) {
+//                    viewModel.setPage_list(repoModels.size() / 10);
+//
+//                }
                 handelRemoteData();
                 observer.removeObserver(this);
             }
